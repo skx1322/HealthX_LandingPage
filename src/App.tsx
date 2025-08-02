@@ -3,7 +3,7 @@ import router from "./router/router"
 
 function App() {
   return (
-    <div className="font-main sm:px-64">
+    <div className="font-main">
       <RouterProvider router={router}></RouterProvider>
     </div>
   )

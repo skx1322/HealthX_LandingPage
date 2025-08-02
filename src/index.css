@@ -6,4 +6,7 @@
 
 @theme {
     --font-main: "Noto Sans", sans-serif;
+
+    --color-main: #faf3e0;
+    --color-secondary: #b9a8b2;
 }

@@ -33,7 +33,7 @@ export const Categories = () => {
           {expoCategories.map((data, index) => (
             <span
               key={index}
-              className={`shadow-xl rounded-xl p-5 leading-relaxed  bg-main hover:bg-main/60 hover:scale-105 transform transition duration-300 hover:text-white`}
+              className={`shadow-xl rounded-xl p-5 leading-relaxed  bg-main  hover:scale-105 transform transition duration-300`}
             >
               <p className="md:text-xl text-sm">{data.content}</p>
             </span>
@@ -77,7 +77,7 @@ export const CategoriesWhite = () => {
           {expoCategories.map((data, index) => (
             <span
               key={index}
-              className={`shadow-xl rounded-xl p-5 leading-relaxed  bg-main hover:bg-main/60 hover:scale-105 transform transition duration-300 hover:text-white`}
+              className={`shadow-xl rounded-xl p-5 leading-relaxed  bg-white  hover:scale-105 transform transition duration-300`}
             >
               <p className="md:text-xl text-sm">{data.content}</p>
             </span>

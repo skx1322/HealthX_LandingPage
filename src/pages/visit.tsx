@@ -11,7 +11,7 @@ const Visit = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-24 items-start">
           <section className="flex flex-col gap-6">
             <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl">
-              Why <b className="underline font-bold">Visit?</b>
+              Why <b className=" font-bold">Visit?</b>
             </h1>
             <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify md:text-left">
               As Malaysia’s leading expo dedicated to physio and rehab
@@ -52,7 +52,7 @@ const Visit = () => {
             className="rounded-3xl opacity-70 w-full max-w-lg mx-auto lg:max-w-xl"
           />
           <h1 className="text-4xl text-center">
-            What's on <b className="underline">PhysioLink Expo</b>?
+            What's on <b className="">PhysioLink Expo</b>?
           </h1>
         </span>
         <section className="px-4 py-8 md:px-8 lg:px-16">
@@ -61,7 +61,7 @@ const Visit = () => {
               <div
                 key={index}
                 className={`
-                        shadow-xl bg-secondary/80 text-gray-800 p-12 rounded-2xl transform transistion-normal duration-300 hover:scale-105 hover:bg-secondary
+                        shadow-xl bg-main/60 text-gray-800 p-12 rounded-2xl transform transistion-normal duration-300 hover:scale-105 hover:bg-main
                       col-span-1
                     `}
               >

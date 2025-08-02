@@ -1,7 +1,6 @@
 import { Link } from "react-router";
 import HomeImage1 from "../assets/HomeImage1.png";
 import HomeImageHandshake1 from "../assets/HomeImageHandshake1.png";
-import Stockphoto1 from "../assets/HomeImageStockPhoto1.png";
 
 import { aboutData, homeData } from "../data/componentData";
 import Categories from "../components/categories";
@@ -28,7 +27,7 @@ const Home = () => {
       </div>
       <div className="sm:max-w-7xl sm:px-12 px-4">
         <h1 className="sm:text-4xl text-xl mb-2">
-          About <b className="underline">Us</b>
+          About <b className="">Us</b>
         </h1>
         <section className="flex flex-col sm:gap-6 gap-2">
           {aboutData
@@ -47,7 +46,7 @@ const Home = () => {
       </div>
       <div className="bg-main w-full lg:px-48 lg:py-24 p-4">
         <h1 className="sm:text-4xl text-xl mb-2 sm:max-w-7xl">
-          About <b className="underline">MPPA</b>
+          About <b className="">MPPA</b>
         </h1>
         <section className="flex flex-col sm:gap-6 gap-2 sm:max-w-7xl">
           {aboutData
@@ -67,7 +66,7 @@ const Home = () => {
       <div className="flex flex-col gap-6">
         <span className="grid lg:grid-cols-2 items-center justify-center gap-12">
           <h1 className="text-4xl text-center">
-            What's on <b className="underline">PhysioLink Expo</b>?
+            What's on <b className="">PhysioLink Expo</b>?
           </h1>
           <img
             src={HomeImageHandshake1}
@@ -79,21 +78,13 @@ const Home = () => {
       </div>
       <div className="bg-main w-full sm:py-20 md:py-24 lg:py-4 px-4 sm:px-8 md:px-12 lg:px-24">
         <h1 className="text-3xl sm:text-4xl md:text-5xl text-center leading-tight mb-6">
-          About <b className="underline">PhysioLink Show</b>
+          About <b className="">PhysioLink Show</b>
         </h1>
         <div className="max-w-7xl mx-auto flex flex-col items-center gap-8 md:gap-12 relative">
-          <div className="absolute inset-0 overflow-hidden rounded-xl h-64 self-end">
-            <img
-              src={Stockphoto1}
-              alt="Background image showing people interacting at an event"
-              className="object-cover opacity-30 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full"
-            />
-            <div className="absolute inset-0 bg-black opacity-10"></div>
-          </div>
           <div className="relative z-10 flex flex-col items-center gap-8 md:gap-12 w-full">
             <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12 w-full max-w-4xl p-4">
               <span
-                className="
+                className=" hover:text-blue-500
                text-gray-800      
                 shadow-xl                         
                 flex flex-col items-center justify-center 
@@ -101,7 +92,7 @@ const Home = () => {
                 rounded-2xl                    
                 text-center                      
                 transform transition-all duration-300 ease-in-out 
-                hover:scale-105 hover:bg-secondary/80 hover:-translate-y-2 
+                hover:scale-105 hover:bg-main/80 hover:-translate-y-2 
                 cursor-pointer                   
               "
               >
@@ -113,7 +104,7 @@ const Home = () => {
                 </h3>
               </span>
               <span
-                className="
+                className="hover:text-blue-500
                  text-gray-800
                 shadow-xl
                 flex flex-col items-center justify-center
@@ -121,7 +112,7 @@ const Home = () => {
                 rounded-2xl
                 text-center
                 transform transition-all duration-300 ease-in-out
-                hover:scale-105 hover:bg-secondary/80 hover:-translate-y-2
+                hover:scale-105 hover:bg-main/80 hover:-translate-y-2
                 cursor-pointer
               "
               >
@@ -133,7 +124,7 @@ const Home = () => {
                 </h3>
               </span>
               <span
-                className="
+                className="hover:text-blue-500
                text-gray-800
                 shadow-xl
                 flex flex-col items-center justify-center
@@ -141,7 +132,7 @@ const Home = () => {
                 rounded-2xl
                 text-center
                 transform transition-all duration-300 ease-in-out
-                hover:scale-105 hover:bg-secondary/80 hover:-translate-y-2
+                hover:scale-105 hover:bg-main/80 hover:-translate-y-2
                 cursor-pointer
               "
               >

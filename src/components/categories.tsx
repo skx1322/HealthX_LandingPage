@@ -8,7 +8,7 @@ const Categories = () => {
           {expoCategories.slice(0, 4).map((data, index) => (
             <span
               key={index}
-              className={`shadow-xl rounded-xl p-5 hover:bg-main/60 hover:scale-105 transform transition duration-300 hover:-translate-y-2 ${index % 2 ? "bg-main hover:bg-secondary/80 hover:text-gray-800": "bg-secondary hover:bg-main/80 text-gray-800 hover:text-black"}`}
+              className={`shadow-xl rounded-xl p-5 hover:bg-main/60 hover:scale-105 transform transition duration-300 hover:-translate-y-2 bg-main  hover:text-gray-800`}
             >
               <p className="md:text-xl text-sm">{data.content}</p>
             </span>
@@ -20,7 +20,7 @@ const Categories = () => {
             {expoCategories.slice(4, 7).map((data, index) => (
               <span
                 key={index + 4} 
-                className={`shadow-xl rounded-xl p-5 hover:bg-main/60 hover:scale-105 transform transition duration-300 hover:-translate-y-2 ${index % 2 ? "bg-main hover:bg-secondary/80 hover:text-gray-800": "bg-secondary hover:bg-main/80 text-gray-800 hover:text-black"}`}
+                className={`shadow-xl rounded-xl p-5 hover:bg-main/60 hover:scale-105 transform transition duration-300 hover:-translate-y-2 bg-main  hover:text-gray-800`}
               >
                 <p className="md:text-xl text-sm">{data.content}</p>
               </span>

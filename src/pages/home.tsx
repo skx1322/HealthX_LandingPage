@@ -76,7 +76,7 @@ const Home = () => {
         </span>
         <ExpoComponent></ExpoComponent>
       </div>
-      <div className="bg-main w-full sm:py-20 md:py-24 lg:py-4 px-4 sm:px-8 md:px-12 lg:px-24">
+      <div className="bg-main w-full sm:py-20 pt-12 px-4 sm:px-8 md:px-12 lg:px-24">
         <h1 className="text-3xl sm:text-4xl md:text-5xl text-center leading-tight mb-6 font-bold">
           About PhysioLink Show
         </h1>
@@ -153,7 +153,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-full text-center bg-main w-full py-12">
+      <div className="max-w-full text-center bg-main w-full pb-12">
         <h1 className="font-bold md:text-4xl text-2xl">Exhibitor Profile</h1>
         <h2 className="md:text-3xl text-xl">7 Product Categories</h2>
         <CategoriesWhite></CategoriesWhite>

@@ -26,7 +26,7 @@ const Exhibit = () => {
           <section className="grid grid-cols-1 grid-rows-4 gap-6 md:gap-8">
             {exhibitReason.map((data, index) => (
               <span
-                className="flex items-start gap-4 bg-secondary/80 rounded-2xl p-2 transform transistion-normal duration-300 hover:scale-105"
+                className="flex items-start gap-4 border-2 shadow-xl bg-main/80 rounded-xl hover:text-green-800 p-2 transform transistion-normal duration-300 hover:scale-105"
                 key={index}
               >
                 <FaRegCheckSquare className="text-2xl md:text-3xl lg:text-4xl mt-1 flex-shrink-0" />{" "}

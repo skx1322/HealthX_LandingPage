@@ -34,7 +34,7 @@ const Categories = () => {
           {expoCategories.map((data, index) => (
             <span
               key={index}
-              className={`shadow-xl rounded-xl p-5 leading-relaxed  bg-main hover:bg-main/60 hover:scale-105 transform transition duration-300 ${index % 3 ? "bg-main hover:bg-secondary/80 hover:text-white": "bg-secondary hover:bg-main/80 text-white hover:text-black"}`}
+              className={`shadow-xl rounded-xl p-5 leading-relaxed  bg-main hover:bg-main/60 hover:scale-105 transform transition duration-300 hover:text-white`}
             >
               <p className="md:text-xl text-sm">{data.content}</p>
             </span>

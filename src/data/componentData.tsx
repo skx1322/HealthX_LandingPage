@@ -4,12 +4,12 @@ export const homeData = [
   {
     title: "Booking",
     content: "BOOK A BOOTH",
-    link: "/",
+    link: "https://forms.gle/aXhdRwRXkQo1GCD17",
   },
   {
     title: "Visitor",
     content: "JOIN AS VISITOR",
-    link: "/",
+    link: "https://forms.gle/aXhdRwRXkQo1GCD17",
   },
 ];
 

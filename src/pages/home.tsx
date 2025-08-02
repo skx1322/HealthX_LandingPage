@@ -77,7 +77,7 @@ const Home = () => {
         <ExpoComponent></ExpoComponent>
       </div>
       <div className="bg-main w-full sm:py-20 md:py-24 lg:py-4 px-4 sm:px-8 md:px-12 lg:px-24">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl text-center leading-tight mb-6">
           About <b className="underline">PhysioLink Show</b>
         </h1>
         <div className="max-w-7xl mx-auto flex flex-col items-center gap-8 md:gap-12 relative">

@@ -4,6 +4,10 @@ import HealthAxisLogo1 from "../assets/HealthAxisLogo1.png";
 import PPPLogo1 from "../assets/PPPLogo1.jpg";
 
 const Footer = () => {
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText("healthxaxis@gmail.com");
+  }
+
   return (
     <footer className="bg-main mt-12 py-12 px-4 sm:px-8 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto flex flex-col items-center justify-between gap-12 md:gap-16">
@@ -67,14 +71,16 @@ const Footer = () => {
               <p>
                 Email:{" "}
                 <a
-                  className="hover:underline"
+                  onClick={copyToClipboard}
+                  title="More inquiry"
+                  className="hover:underline cursor-pointer"
                 >
                   healthxaxis@gmail.com
                 </a>
               </p>
               <p>
                 Phone:{" "}
-                <a className="hover:underline">
+                <a title="More inquiry" className="hover:underline cursor-pointer">
                   016-2835562
                 </a>
               </p>

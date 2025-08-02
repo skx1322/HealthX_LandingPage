@@ -1,5 +1,5 @@
 
-const NetworkSVG = ({ width = '100%', height = 'auto', color = 'currentColor', className = '' }) => {
+const NetworkSVG = ({ width = '100%', height = '100%', color = 'currentColor', className = '' }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

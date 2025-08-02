@@ -8,7 +8,7 @@ const Visit = () => {
   return (
     <section className="flex flex-col gap-24">
       <div className="bg-main py-10 px-4 sm:px-8 md:py-16 md:px-12 lg:py-24 lg:px-24">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-24 items-center">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-24 items-start">
           <section className="flex flex-col gap-6">
             <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl">
               Why <b className="underline font-bold">Visit?</b>

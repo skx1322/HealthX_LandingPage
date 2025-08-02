@@ -7,7 +7,7 @@ const Exhibit = () => {
   return (
     <section>
       <div className="bg-main py-10 px-4 sm:px-8 md:py-16 md:px-12 lg:py-24 lg:px-24">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-24 items-center">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-24 items-start">
           <section className="flex flex-col gap-6">
             <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl">
               Why <b className="underline font-bold">Exhibit?</b>
@@ -78,15 +78,15 @@ const Exhibit = () => {
       </div>
       <div className="py-12 px-4 sm:px-8 md:py-16 md:px-12 lg:py-24 lg:px-24 bg-white">
         <div className="max-w-7xl mx-auto grid grid-cols-1 gap-12 md:gap-16 lg:gap-20">
-          <section className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
-            <div className="order-2 md:order-1 flex justify-center">
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center border-b-2 border-gray-300 pb-2">
+            <div className="order-1 md:order-1 flex justify-center">
               <img
                 src={ExhibitTalk1}
                 alt="Exhibit talk image."
                 className="w-full h-auto max-w-sm sm:max-w-md lg:max-w-lg rounded-xl shadow-lg"
               />
             </div>
-            <div className="order-1 md:order-2 flex flex-col gap-4 text-center md:text-left">
+            <div className="order-2 md:order-2 flex flex-col gap-4 text-center md:text-left">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-gray-800">
                 Product Talks
               </h2>
@@ -96,7 +96,7 @@ const Exhibit = () => {
               </p>
             </div>
           </section>
-          <section className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+          <section className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center border-b-2 border-gray-300 pb-2">
             <div className="order-2 md:order-1 flex flex-col gap-4 text-center md:text-left">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight text-gray-800">
                 B2B Networking Opportunities

@@ -26,8 +26,8 @@ const Home = () => {
         </span>
       </div>
       <div className="sm:max-w-7xl sm:px-12 px-4">
-        <h1 className="sm:text-4xl text-xl mb-2">
-          About <b className="">Us</b>
+        <h1 className="sm:text-4xl text-xl mb-2 font-bold">
+          About Us
         </h1>
         <section className="flex flex-col sm:gap-6 gap-2">
           {aboutData
@@ -45,8 +45,8 @@ const Home = () => {
         </section>
       </div>
       <div className="bg-main w-full lg:px-48 lg:py-24 p-4">
-        <h1 className="sm:text-4xl text-xl mb-2 sm:max-w-7xl">
-          About <b className="">MPPA</b>
+        <h1 className="sm:text-4xl text-xl mb-2 sm:max-w-7xl font-bold">
+          About MPPA
         </h1>
         <section className="flex flex-col sm:gap-6 gap-2 sm:max-w-7xl">
           {aboutData
@@ -65,8 +65,8 @@ const Home = () => {
       </div>
       <div className="flex flex-col gap-6">
         <span className="grid lg:grid-cols-2 items-center justify-center gap-12">
-          <h1 className="text-4xl text-center">
-            What's on <b className="">PhysioLink Expo</b>?
+          <h1 className="text-4xl text-center font-bold">
+            What's on PhysioLink Expo?
           </h1>
           <img
             src={HomeImageHandshake1}
@@ -77,14 +77,15 @@ const Home = () => {
         <ExpoComponent></ExpoComponent>
       </div>
       <div className="bg-main w-full sm:py-20 md:py-24 lg:py-4 px-4 sm:px-8 md:px-12 lg:px-24">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl text-center leading-tight mb-6">
-          About <b className="">PhysioLink Show</b>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl text-center leading-tight mb-6 font-bold">
+          About PhysioLink Show
         </h1>
         <div className="max-w-7xl mx-auto flex flex-col items-center gap-8 md:gap-12 relative">
           <div className="relative z-10 flex flex-col items-center gap-8 md:gap-12 w-full">
             <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12 w-full max-w-4xl p-4">
               <span
                 className=" hover:text-blue-500
+                bg-white
                text-gray-800      
                 shadow-xl                         
                 flex flex-col items-center justify-center 
@@ -105,6 +106,7 @@ const Home = () => {
               </span>
               <span
                 className="hover:text-blue-500
+                bg-white
                  text-gray-800
                 shadow-xl
                 flex flex-col items-center justify-center
@@ -125,6 +127,7 @@ const Home = () => {
               </span>
               <span
                 className="hover:text-blue-500
+                bg-white
                text-gray-800
                 shadow-xl
                 flex flex-col items-center justify-center

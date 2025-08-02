@@ -10,8 +10,8 @@ const Visit = () => {
       <div className="bg-main py-10 px-4 sm:px-8 md:py-16 md:px-12 lg:py-24 lg:px-24">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-24 items-start">
           <section className="flex flex-col gap-6">
-            <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl">
-              Why <b className=" font-bold">Visit?</b>
+            <h1 className="text-3xl font-bold sm:text-4xl md:text-4xl lg:text-5xl">
+              Why Visit?
             </h1>
             <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify md:text-left">
               As Malaysia’s leading expo dedicated to physio and rehab
@@ -27,7 +27,7 @@ const Visit = () => {
           <section className="grid grid-cols-1 grid-rows-4 gap-6 md:gap-8">
             {visitReason.map((data, index) => (
               <span
-                className="flex items-start gap-4 border-2 shadow-xl bg-main/80 rounded-xl hover:text-green-800 p-2 transform transistion-normal duration-300 hover:scale-105"
+                className="flex items-start gap-4 shadow-xl bg-white rounded-xl p-2 transform transistion-normal duration-300 hover:scale-105"
                 key={index}
               >
                 <FaRegCheckSquare className="text-2xl md:text-3xl lg:text-4xl mt-1 flex-shrink-0" />{" "}
@@ -51,8 +51,8 @@ const Visit = () => {
             alt="Handshake at expo"
             className="rounded-3xl opacity-70 w-full max-w-lg mx-auto lg:max-w-xl"
           />
-          <h1 className="text-4xl text-center">
-            What's on <b className="">PhysioLink Expo</b>?
+          <h1 className="text-4xl text-center font-bold">
+            What's on PhysioLink Expo?
           </h1>
         </span>
         <section className="px-4 py-8 md:px-8 lg:px-16">
@@ -60,8 +60,8 @@ const Visit = () => {
             {expoDetail.map((data, index) => (
               <div
                 key={index}
-                className={`
-                        shadow-xl bg-main/60 text-gray-800 p-12 rounded-2xl transform transistion-normal duration-300 hover:scale-105 hover:bg-main
+                className={`bg-white
+                        shadow-xl text-gray-800 p-12 rounded-2xl transform transistion-normal duration-300 hover:scale-105 hover:bg-main
                       col-span-1
                     `}
               >

@@ -9,7 +9,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-main mt-12 py-12 px-4 sm:px-8 md:px-12 lg:px-24">
+    <footer className="bg-white py-12 px-4 sm:px-8 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto flex flex-col items-center justify-between gap-12 md:gap-16">
         <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
           <div className="text-center md:text-left">

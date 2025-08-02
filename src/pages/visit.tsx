@@ -1,6 +1,6 @@
 import { FaRegCheckSquare } from "react-icons/fa";
 import { expoDetail, visitReason } from "../data/componentData";
-import Categories from "../components/categories";
+import { Categories } from "../components/categories";
 import HomeImageHandshake1 from "../assets/HomeImageHandshake1.png";
 import VisitorHandshake2 from "../assets/VisitorHandshake2.png";
 
@@ -39,12 +39,12 @@ const Visit = () => {
           </section>
         </div>
       </div>
-      <div className="max-w-7xl text-center self-center">
+      <div className=" text-center self-center">
         <h1 className="font-bold md:text-4xl text-2xl">Exhibitor Profile</h1>
         <h2 className="md:text-3xl text-xl">7 Product Categories</h2>
         <Categories></Categories>
       </div>
-      <div className="flex flex-col gap-6 bg-main p-4">
+      <div className="flex flex-col gap-6 bg-main px-4 py-12">
         <span className="grid lg:grid-cols-2 items-center justify-center gap-12">
           <img
             src={HomeImageHandshake1}
@@ -61,7 +61,7 @@ const Visit = () => {
               <div
                 key={index}
                 className={`bg-white
-                        shadow-xl text-gray-800 p-12 rounded-2xl transform transistion-normal duration-300 hover:scale-105 hover:bg-main
+                        shadow-xl text-gray-800 p-12 rounded-2xl transform transistion-normal duration-300 hover:scale-105 
                       col-span-1
                     `}
               >

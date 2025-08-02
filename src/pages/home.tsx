@@ -3,11 +3,11 @@ import HomeImage1 from "../assets/HomeImage1.png";
 import HomeImageHandshake1 from "../assets/HomeImageHandshake1.png";
 
 import { aboutData, homeData } from "../data/componentData";
-import Categories from "../components/categories";
+import {CategoriesWhite} from "../components/categories";
 import ExpoComponent from "../components/expoComponent";
 const Home = () => {
   return (
-    <section className="flex flex-col items-center justify-center gap-24">
+    <section className="flex flex-col items-center justify-center">
       <div className="flex flex-col gap-6 sm:items-end items-center border-b-2 pb-4 border-gray-300">
         <span className="">
           <img src={HomeImage1} alt="" className="lg:max-w-6xl" />
@@ -25,7 +25,7 @@ const Home = () => {
           ))}
         </span>
       </div>
-      <div className="sm:max-w-7xl sm:px-12 px-4">
+      <div className="sm:max-w-7xl sm:px-12 px-4 my-12">
         <h1 className="sm:text-4xl text-xl mb-2 font-bold">
           About Us
         </h1>
@@ -63,7 +63,7 @@ const Home = () => {
             ))}
         </section>
       </div>
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 my-12">
         <span className="grid lg:grid-cols-2 items-center justify-center gap-12">
           <h1 className="text-4xl text-center font-bold">
             What's on PhysioLink Expo?
@@ -93,7 +93,7 @@ const Home = () => {
                 rounded-2xl                    
                 text-center                      
                 transform transition-all duration-300 ease-in-out 
-                hover:scale-105 hover:bg-main/80 hover:-translate-y-2 
+                hover:scale-105 hover:-translate-y-2 
                 cursor-pointer                   
               "
               >
@@ -114,7 +114,7 @@ const Home = () => {
                 rounded-2xl
                 text-center
                 transform transition-all duration-300 ease-in-out
-                hover:scale-105 hover:bg-main/80 hover:-translate-y-2
+                hover:scale-105  hover:-translate-y-2
                 cursor-pointer
               "
               >
@@ -135,7 +135,7 @@ const Home = () => {
                 rounded-2xl
                 text-center
                 transform transition-all duration-300 ease-in-out
-                hover:scale-105 hover:bg-main/80 hover:-translate-y-2
+                hover:scale-105 hover:-translate-y-2
                 cursor-pointer
               "
               >
@@ -153,10 +153,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl text-center">
+      <div className="max-w-full text-center bg-main w-full py-12">
         <h1 className="font-bold md:text-4xl text-2xl">Exhibitor Profile</h1>
         <h2 className="md:text-3xl text-xl">7 Product Categories</h2>
-        <Categories></Categories>
+        <CategoriesWhite></CategoriesWhite>
       </div>
     </section>
   );

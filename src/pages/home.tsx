@@ -16,6 +16,7 @@ const Home = () => {
         <span className="flex gap-12 px-4">
           {homeData.map((data, index) => (
             <Link
+              target="_blank"
               to={data.link}
               key={index}
               className="hover:scale-105 hover:bg-main hover:-translate-y-2 duration-300 transform transistion-normal text-bold border-2 rounded-md sm:text-2xl text-sm md:px-12 px-2 py-1 md:py-4"

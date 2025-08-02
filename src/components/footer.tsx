@@ -6,7 +6,7 @@ import PPPLogo1 from "../assets/PPPLogo1.jpg";
 const Footer = () => {
   const copyToClipboard = () => {
     navigator.clipboard.writeText("healthxaxis@gmail.com");
-  }
+  };
 
   return (
     <footer className="bg-main mt-12 py-12 px-4 sm:px-8 md:px-12 lg:px-24">
@@ -24,6 +24,7 @@ const Footer = () => {
             </h2>
             {homeData.slice(0, 1).map((data) => (
               <Link
+                target="_blank"
                 to={data.link}
                 key={data.link}
                 className="hover:scale-105 hover:bg-main hover:-translate-y-2 duration-300 transform transistion-normal text-bold border-2 rounded-md sm:text-2xl text-sm md:px-12 px-2 py-1 md:py-4"
@@ -80,7 +81,10 @@ const Footer = () => {
               </p>
               <p>
                 Phone:{" "}
-                <a title="More inquiry" className="hover:underline cursor-pointer">
+                <a
+                  title="More inquiry"
+                  className="hover:underline cursor-pointer"
+                >
                   016-2835562
                 </a>
               </p>

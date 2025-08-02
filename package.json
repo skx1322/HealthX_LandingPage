@@ -1,7 +1,6 @@
 {
   "name": "landingpage",
   "private": true,
-  "homepage": "https://skx1322.github.io/HealthX_LandingPage/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

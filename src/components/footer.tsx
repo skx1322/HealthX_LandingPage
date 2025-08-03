@@ -58,7 +58,7 @@ const Footer = () => {
                   alt="Malaysia Private Physiotherapy Association Logo"
                 />
                 <h4 className="font-bold text-lg">
-                  Malaysia Private Physiotherapy Association
+                  Malaysia Private Physiotherapy Practice Association (MPPPA)
                 </h4>
               </div>
             </div>

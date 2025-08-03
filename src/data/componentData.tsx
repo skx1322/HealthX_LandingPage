@@ -29,13 +29,13 @@ export const aboutData = [
   {
     for: "about",
     content:
-      "We are proud to collaborate with the Malaysia Private Physiotherapy Association (MPPA) in making this event a milestone gathering for Malaysia’s growing physiotherapy community.",
+      "We are proud to collaborate with the Malaysia Private Physiotherapy Practice Association (MPPPA) in making this event a milestone gathering for Malaysia’s growing physiotherapy community.",
     isJustify: true,
   },
   {
-    for: "aboutMPPA",
+    for: "aboutMPPPA",
     content:
-      "The Malaysia private Physiotherapy Association (MPPA) was established in 2020 with the mission to unite, support, and advocate for private physiotherapy practitioners across the country. Since its founding, MPPA has grown into a strong professional community with over 150 members, comprising clinic owners, private practitioners, and allied professionals in the rehabilitation field.",
+      "The Malaysia Private Physiotherapy Practice Association (MPPPA) was established in 2021 with the mission to unite, support, and advocate for private physiotherapy practitioners across the country. Since its founding, MPPPA has grown into a strong professional community with over 150 members, comprising clinic owners, private physiotherapy practitioners, and allied health professionals in the rehabilitation field.",
     isJustify: true,
   },
 ];

@@ -31,7 +31,7 @@ const Home = () => {
         </h1>
         <section className="flex flex-col sm:gap-6 gap-2">
           {aboutData
-            .filter((data) => data.for === "about")
+            .filter((data) => data.for == "about")
             .map((data, index) => (
               <p
                 key={index}
@@ -50,7 +50,7 @@ const Home = () => {
         </h1>
         <section className="flex flex-col sm:gap-6 gap-2 sm:max-w-7xl">
           {aboutData
-            .filter((data) => data.for === "aboutMPPA")
+            .filter((data) => data.for === "aboutMPPPA")
             .map((data, index) => (
               <p
                 key={index}

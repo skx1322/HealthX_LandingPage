@@ -1,28 +1,11 @@
-name: Generate Sitemap
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Generate sitemap.xml
-        uses: cicirello/generate-sitemap@v1
-        with:
-          base-url-path: https://physiolinkexpo.com.my/
-
-      - name: Commit sitemap.xml
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sitemap.xml
-          git commit -m "Add/update sitemap.xml" || echo "No changes to commit"
-          git push
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://physiolinkexpo.com.my/</loc>
+    <lastmod>2025-08-04</lastmod>
+  </url>
+  <!-- more URLs -->
+</urlset>
 
       - name: Ensure .nojekyll
         run: |

@@ -18,7 +18,7 @@ jobs:
         with:
           base-url-path: https://physiolinkexpo.com.my/
 
-      - name: Commit sitemap.xml 
+      - name: Commit sitemap.xml and .nojekyll
         run: |
           touch .nojekyll
           git config --global user.name "github-actions[bot]"

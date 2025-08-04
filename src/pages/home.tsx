@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import HomeImage2.jpeg from "../assets/HomeImage2.jpeg";
+import HomeImage2 from "../assets/HomeImage2.jpeg";
 import HomeImageHandshake1 from "../assets/HomeImageHandshake1.png";
 
 import { aboutData, homeData } from "../data/componentData";
@@ -10,7 +10,7 @@ const Home = () => {
     <section className="flex flex-col items-center justify-center">
       <div className="flex flex-col gap-6 sm:items-end items-center border-b-2 pb-4 border-gray-300">
         <span className="">
-          <img src={HomeImage1} alt="" className="lg:max-w-6xl" />
+          <img src={HomeImage2} alt="" className="lg:max-w-6xl" />
         </span>
         <span className="flex gap-12 px-4">
           {homeData.map((data, index) => (

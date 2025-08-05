@@ -46,22 +46,35 @@ const Home = () => {
       </div>
       <div className="bg-main w-full lg:px-48 lg:py-24 p-4">
         <h1 className="sm:text-4xl text-xl mb-2 sm:max-w-7xl font-bold">
-          About MPPA
+          About MPPPA
         </h1>
-        <section className="flex flex-col sm:gap-6 gap-2 sm:max-w-7xl">
-          {aboutData
-            .filter((data) => data.for === "aboutMPPPA")
-            .map((data, index) => (
-              <p
-                key={index}
-                className={`leading-relaxed  ${
-                  data.isJustify ? "text-justify" : ""
-                } text-md sm:text-xl px-4`}
-              >
-                {data.content}
-              </p>
-            ))}
-        </section>
+
+<section className="flex flex-col sm:gap-6 gap-2 sm:max-w-7xl">
+  {aboutData
+    .filter((data) => data.for === "aboutMPPPA")
+    .map((data, index) => (
+      <div key={index} className="px-4">
+        <p
+          className={`leading-relaxed ${
+            data.isJustify ? "text-justify" : ""
+          } text-md sm:text-xl`}
+        >
+          {data.content}
+        </p>
+
+        {/* ✅ Button added below paragraph */}
+        <a
+          href="http://mpppamalaysia.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="mt-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-300">
+            Visit MPPPA Website
+          </button>
+        </a>
+      </div>
+    ))}
+</section>
       </div>
       <div className="flex flex-col gap-6 my-12">
         <span className="grid lg:grid-cols-2 items-center justify-center gap-12">

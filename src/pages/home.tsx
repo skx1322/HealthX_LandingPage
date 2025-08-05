@@ -63,6 +63,7 @@ const Home = () => {
         </p>
 
         {/* ✅ Button added below paragraph */}
+        <div className="flex justify-center mt-4">
         <a
           href="http://mpppamalaysia.vercel.app/"
           target="_blank"

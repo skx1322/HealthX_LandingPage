@@ -88,6 +88,20 @@ const Footer = () => {
                   016-2835562
                 </a>
               </p>
+              
+              <p>
+  WhatsApp:{" "}
+  <a
+    href="https://wa.me/60162835562"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Chat on WhatsApp"
+    className="hover:underline text-green-600"
+  >
+    016-2835562
+  </a>
+</p>
+              
               <p className="mt-2">Location: Shah Alam, Malaysia</p>
             </div>
           </div>

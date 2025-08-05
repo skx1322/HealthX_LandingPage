@@ -3,7 +3,7 @@ import HomeImage2 from "../assets/HomeImage2.jpeg";
 import HomeImageHandshake1 from "../assets/HomeImageHandshake1.png";
 
 import { aboutData, homeData } from "../data/componentData";
-import {CategoriesWhite} from "../components/categories";
+import { CategoriesWhite } from "../components/categories";
 import ExpoComponent from "../components/expoComponent";
 const Home = () => {
   return (
@@ -26,9 +26,7 @@ const Home = () => {
         </span>
       </div>
       <div className="sm:max-w-7xl sm:px-12 px-4 my-12">
-        <h1 className="sm:text-4xl text-xl mb-2 font-bold">
-          About Us
-        </h1>
+        <h1 className="sm:text-4xl text-xl mb-2 font-bold">About Us</h1>
         <section className="flex flex-col sm:gap-6 gap-2">
           {aboutData
             .filter((data) => data.for == "about")
@@ -49,34 +47,34 @@ const Home = () => {
           About MPPPA
         </h1>
 
-<section className="flex flex-col sm:gap-6 gap-2 sm:max-w-7xl">
-  {aboutData
-    .filter((data) => data.for === "aboutMPPPA")
-    .map((data, index) => (
-      <div key={index} className="px-4">
-        <p
-          className={`leading-relaxed ${
-            data.isJustify ? "text-justify" : ""
-          } text-md sm:text-xl`}
-        >
-          {data.content}
-        </p>
+        <section className="flex flex-col sm:gap-6 gap-2 sm:max-w-7xl">
+          {aboutData
+            .filter((data) => data.for === "aboutMPPPA")
+            .map((data, index) => (
+              <div key={index} className="px-4">
+                <p
+                  className={`leading-relaxed ${
+                    data.isJustify ? "text-justify" : ""
+                  } text-md sm:text-xl`}
+                >
+                  {data.content}
+                </p>
 
-        {/* ✅ Button added below paragraph */}
-        <div className="flex justify-center mt-4">
-        <a
-          href="http://mpppamalaysia.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-           <button className="mt-4 px-6 py-2 bg-white text-black border border-gray-300 rounded hover:bg-gray-100 transition duration-300">
-           
-            Visit MPPPA Website
-          </button>
-        </a>
-      </div>
-    ))}
-</section>
+                {/* ✅ Button added below paragraph */}
+                <div className="flex justify-center mt-4">
+                  <a
+                    href="http://mpppamalaysia.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="mt-4 px-6 py-2 bg-white text-black border border-gray-300 rounded hover:bg-gray-100 transition duration-300">
+                      Visit MPPPA Website
+                    </button>
+                  </a>
+                </div>
+              </div>
+            ))}
+        </section>
       </div>
       <div className="flex flex-col gap-6 my-12">
         <span className="grid lg:grid-cols-2 items-center justify-center gap-12">

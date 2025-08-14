@@ -17,7 +17,7 @@ export const aboutData = [
   {
     for: "about",
     content:
-      "PhysioLink Expo is Malaysia’s leading expo dedicated to the physiotherapy and rehabilitation sector. As the premier exhibition and networking platform for theindustry, this event brings together private practice professionals, academicleaders, and healthcare innovators under one roof.",
+      "PhysioLink Expo is Malaysia’s leading expo dedicated to the physiotherapy and rehabilitation sector. As the premier exhibition and networking platform for the industry, this event brings together private practice professionals, academic leaders, and healthcare innovators under one roof.",
     isJustify: true,
   },
   {

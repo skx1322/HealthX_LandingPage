@@ -79,15 +79,6 @@ const Footer = () => {
                   healthxaxis@gmail.com
                 </a>
               </p>
-              <p>
-                Phone:{" "}
-                <a
-                  title="More inquiry"
-                  className="hover:underline cursor-pointer"
-                >
-                  016-2835562
-                </a>
-              </p>
               
               <p>
   WhatsApp:{" "}

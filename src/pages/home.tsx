@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import HomeImage4 from "../assets/HomeImage4";
+import HomeImage4 from "../assets/HomeImage4.png";
 import HomeImageHandshake1 from "../assets/HomeImageHandshake1.png";
 
 import { aboutData, homeData } from "../data/componentData";
